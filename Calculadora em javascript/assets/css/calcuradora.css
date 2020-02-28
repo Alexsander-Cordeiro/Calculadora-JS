@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+}
+
+h1{
+    color: white;
+}
+
+#imagem{
+    background-image: url(../img/tc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tamanhoBotao{
+    padding: 15px;
+}

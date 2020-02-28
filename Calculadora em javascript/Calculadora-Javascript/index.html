@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/calcuradora.css">
+       
+   
+</head>
+
+<body>
+    <div id="imagem"class="container">
+    <br>
+        <h1>Calculadora</h1>
+        <br><br>
+
+        <div style="width: 200px;" class="alert alert-info" role="alert" id="resultado">0</div> 
+
+        <div class="container-fluid">
+            <button  type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">7</button>
+            <button  type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">8</button >
+            <button  type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">9</button >
+            <button type="button" onclick="clickMultiplicacao()"class="btn btn-primary" class="tamanhoBotao">*</button >
+            <br><br>
+
+            <button type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">4</button>
+            <button  type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">5</button>
+            <button  type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">6</button>
+            <button type="button" onclick="clickSubtracao()" class="btn btn-primary" class="tamanhoBotao">-</button>
+            <br><br>
+
+            <button  type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">1</button>
+            <button type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">2</button>
+            <button  type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">3</button>
+            <button type="button" onclick="clickSoma()" class="btn btn-primary" class="tamanhoBotao">+</button>
+            <br><br>
+
+            <button type="button" onclick="numeroClick(this)"  class="btn btn-primary" class="tamanhoBotao">0</button>
+            <button  type="button" onclick="resetar()" class="btn btn-primary" class="tamanhoBotao">C</button>
+            <button  type="button" onclick="igual()"  class="btn btn-primary" class="tamanhoBotao">=</button>
+            <button  type="button" onclick="clickDividir()" class="btn btn-primary" class="tamanhoBotao">/</button>
+
+
+
+        </div>
+
+    </div>
+
+       <script src="calculadora.js"></script>
+       <script src="..//Bootstrap/js/bootstrap.js"></script>
+            
+      
+</body>
+</html>
